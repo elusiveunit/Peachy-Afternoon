@@ -6,12 +6,12 @@ This is a soft color scheme for Sublime Text 2 that is easy on the eyes (at leas
 The background is often in need of adjustment, due to different screen settings.
 
 	Hex     | Value/brightness
-	\#4B4034 | 75 (default)
-	\#463C31 | 70
-	\#41382D | 65
-	\#3C342A | 60
-	\#373026 | 55
-	\#322C23 | 50
+	#4B4034 | 75 (default)
+	#463C31 | 70
+	#41382D | 65
+	#3C342A | 60
+	#373026 | 55
+	#322C23 | 50
 
 ## Samples
 
