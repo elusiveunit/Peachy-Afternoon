@@ -159,17 +159,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Library Constant</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#859BA6</string>
-			</dict>
-			<key>scope</key>
-			<string>support.constant</string>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Function Argument</string>
 			<key>settings</key>
 			<dict>
@@ -223,6 +212,14 @@
 			<key>scope</key>
 			<string>constant.language</string>
 		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>----------------------------------------------------</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>HTML Character Entity</string>
@@ -238,14 +235,14 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>HTML !DOCTYPE</string>
+			<string>HTML/XML !DOCTYPE</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#808080</string>
 			</dict>
 			<key>scope</key>
-			<string>entity.name.tag.doctype.html, meta.tag.sgml.doctype.html, string.quoted.double.doctype.identifiers-and-DTDs.html</string>
+			<string>entity.name.tag.doctype.html, meta.tag.sgml.doctype.html, string.quoted.double.doctype.identifiers-and-DTDs.html, meta.tag.sgml.doctype.xml, keyword.doctype.xml</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -258,6 +255,14 @@
 			<key>scope</key>
 			<string>punctuation.definition.tag.xml</string>
 		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>---------------------------------------------------</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>CSS Tag name</string>
@@ -403,6 +408,14 @@
 			<key>scope</key>
 			<string>keyword.other.important.css, entity.name.tag.wildcard.css</string>
 		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>--------------------------------------------------</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>JS DOM</string>
@@ -447,6 +460,14 @@
 			<key>scope</key>
 			<string>meta.brace.curly.js, meta.brace.round.js, punctuation.terminator.statement.js</string>
 		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>-------------------------------------------------</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+
 		<dict>
 			<key>name</key>
 			<string>PHP Tag</string>
@@ -481,17 +502,91 @@
 			<string>source.php.embedded.line.html</string>
 		</dict>
 
-      <dict>
-         <key>name</key>
-         <string>Test</string>
-         <key>settings</key>
-         <dict>
-            <key>foreground</key>
-            <string>#DA2C5B</string>
-         </dict>
-         <key>scope</key>
-         <string>punctuation.section.embedded.begin, punctuation.section.embedded.end</string>
-      </dict>
+		<dict>
+			<key>name</key>
+			<string>------------------------------------------------</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Markdown link url</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D9B850</string>
+			</dict>
+			<key>scope</key>
+			<string>meta.link.inline.markdown</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown link title</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8FA7B3</string>
+			</dict>
+			<key>scope</key>
+			<string>string.other.link.title.markdown</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown list</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B1B879</string>
+			</dict>
+			<key>scope</key>
+			<string>meta.paragraph.list.markdown</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown heading</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D29650</string>
+			</dict>
+			<key>scope</key>
+			<string>markup.heading.markdown, punctuation.definition.heading.markdown</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown pre-formatted block</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C1A38A</string>
+			</dict>
+			<key>scope</key>
+			<string>markup.raw.block.markdown</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown image url</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D3B6C4</string>
+			</dict>
+			<key>scope</key>
+			<string>meta.image.inline.markdown</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown image alt</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#8FA7B3</string>
+			</dict>
+			<key>scope</key>
+			<string>string.other.link.description.markdown</string>
+		</dict>
+
 	</array>
 	<key>uuid</key>
 	<string>EAF1E27E-5BE5-4EF0-AE60-7CB3D29A9054</string>
