@@ -47,17 +47,6 @@
 			<key>scope</key>
 			<string>string</string>
 		</dict>
-      <dict>
-         <key>name</key>
-         <string>String embedded-source</string>
-         <key>scope</key>
-         <string>string source</string>
-         <key>settings</key>
-         <dict>
-            <key>foreground</key>
-            <string>#AAD86B</string>
-         </dict>
-      </dict>
 		<dict>
 			<key>name</key>
 			<string>Variable</string>
@@ -486,7 +475,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#524538</string>
+				<string>#574A3D</string>
 			</dict>
 			<key>scope</key>
 			<string>source.php.embedded.line.html</string>
