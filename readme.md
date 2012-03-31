@@ -15,7 +15,7 @@ The background is often in need of adjustment, due to different screen settings.
 
 ## Samples
 
-Here are some samples from the languages I use the most.
+Here are some samples (possibly not 100% updated) from the languages I use the most.
 
 #### HTML/PHP
 
