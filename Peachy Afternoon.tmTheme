@@ -382,7 +382,7 @@
 				<string>#8FA7B3</string>
 			</dict>
 			<key>scope</key>
-			<string>variable.parameter.misc.css, support.function.misc.css, punctuation.section.function.css</string>
+			<string>variable.parameter.misc.css, variable.parameter.rect.css, support.function.misc.css, punctuation.section.function.css</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -459,6 +459,28 @@
 			</dict>
 			<key>scope</key>
 			<string>meta.brace.curly.js, meta.brace.round.js, punctuation.terminator.statement.js</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Punctuation</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D3B6C4</string>
+			</dict>
+			<key>scope</key>
+			<string>meta.structure.dictionary.json</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JSON Quotes</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E8D7A5</string>
+			</dict>
+			<key>scope</key>
+			<string>punctuation.definition.string.begin.json, punctuation.definition.string.end.json</string>
 		</dict>
 
 		<dict>
