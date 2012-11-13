@@ -577,14 +577,14 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown pre-formatted block</string>
+			<string>Markdown pre-formatted text</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#C1A38A</string>
 			</dict>
 			<key>scope</key>
-			<string>markup.raw.block.markdown</string>
+			<string>markup.raw.block.markdown, markup.raw.inline.markdown</string>
 		</dict>
 		<dict>
 			<key>name</key>
