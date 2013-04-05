@@ -609,6 +609,25 @@
 			<string>string.other.link.description.markdown</string>
 		</dict>
 
+		<dict>
+			<key>name</key>
+			<string>------------------------------------------------</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Bracket highlighter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6B9E76</string>
+			</dict>
+			<key>scope</key>
+			<string>brackethighlighter.default</string>
+		</dict>
+
 	</array>
 	<key>uuid</key>
 	<string>EAF1E27E-5BE5-4EF0-AE60-7CB3D29A9054</string>
