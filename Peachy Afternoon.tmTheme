@@ -215,14 +215,12 @@
 
 		<dict>
 			<key>name</key>
-			<string>----------------------------------------------------</string>
-			<key>settings</key>
-			<dict/>
+			<string>----- HTML/XML ------------------------------------------------</string>
 		</dict>
 
 		<dict>
 			<key>name</key>
-			<string>HTML Character Entity</string>
+			<string>HTML/XML Character Entity</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -231,7 +229,7 @@
 				<string>bold</string>
 			</dict>
 			<key>scope</key>
-			<string>constant.character.entity.html</string>
+			<string>constant.character.entity.html, constant.character.entity.xml</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -258,9 +256,7 @@
 
 		<dict>
 			<key>name</key>
-			<string>---------------------------------------------------</string>
-			<key>settings</key>
-			<dict/>
+			<string>----- CSS -----------------------------------------------------</string>
 		</dict>
 
 		<dict>
@@ -411,9 +407,7 @@
 
 		<dict>
 			<key>name</key>
-			<string>--------------------------------------------------</string>
-			<key>settings</key>
-			<dict/>
+			<string>----- JavaScript ----------------------------------------------</string>
 		</dict>
 
 		<dict>
@@ -485,9 +479,7 @@
 
 		<dict>
 			<key>name</key>
-			<string>-------------------------------------------------</string>
-			<key>settings</key>
-			<dict/>
+			<string>----- PHP -----------------------------------------------------</string>
 		</dict>
 
 		<dict>
@@ -518,7 +510,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#574A3D</string>
+				<string>#53473A</string>
 			</dict>
 			<key>scope</key>
 			<string>source.php.embedded.line.html</string>
@@ -526,9 +518,7 @@
 
 		<dict>
 			<key>name</key>
-			<string>------------------------------------------------</string>
-			<key>settings</key>
-			<dict/>
+			<string>----- Markdown ------------------------------------------------</string>
 		</dict>
 
 		<dict>
@@ -571,20 +561,61 @@
 			<dict>
 				<key>foreground</key>
 				<string>#D29650</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 			<key>scope</key>
 			<string>markup.heading.markdown, punctuation.definition.heading.markdown</string>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown pre-formatted text</string>
+			<string>Markdown bold</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D9B850</string>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
+			<key>scope</key>
+			<string>markup.bold.markdown</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown italic</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D9B850</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
+			<key>scope</key>
+			<string>markup.italic.markdown</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown raw text block</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#C1A38A</string>
+				<key>background</key>
+				<string>#504438</string>
+			</dict>
+			<key>scope</key>
+			<string>markup.raw.block.markdown</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown raw inline text</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#C1A38A</string>
 			</dict>
 			<key>scope</key>
-			<string>markup.raw.block.markdown, markup.raw.inline.markdown</string>
+			<string>markup.raw.inline.markdown</string>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -611,9 +642,7 @@
 
 		<dict>
 			<key>name</key>
-			<string>------------------------------------------------</string>
-			<key>settings</key>
-			<dict/>
+			<string>----- Bracket highlighter -------------------------------------</string>
 		</dict>
 
 		<dict>
